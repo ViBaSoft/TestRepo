@@ -85,6 +85,9 @@ public class Node { // implements Serializable{
 			throw new IllegalArgumentException("Invalid Operator:" + operator);
 		}
 		
+		//logic is to move below switch codes to individual operator classes
+		//return operator.evaluate();
+		
 		switch(operator) {
 			case ADD:
 				result = lhs + rhs;
